@@ -26,4 +26,6 @@ Pod::Spec.new do |s|
 
   s.framework    = "AVFoundation"
 
+  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '3.0' }
+
 end
