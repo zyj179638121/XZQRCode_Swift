@@ -1,0 +1,7 @@
+XZQRCode_Swift.xcodeproj/xcuserdata/
+XZQRCode_Swift.xcworkspace/
+Pods/
+*.swp
+Podfile.lock
+.DS_Store
+XZQRCode_Swift.xcodeproj/project.xcworkspace/xcuserdata/

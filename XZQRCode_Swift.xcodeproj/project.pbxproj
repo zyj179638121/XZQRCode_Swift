@@ -12,6 +12,8 @@
 		A3A7197F1E1F6B3100ABE2A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A7197D1E1F6B3100ABE2A2 /* Main.storyboard */; };
 		A3A719811E1F6B3100ABE2A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A3A719801E1F6B3100ABE2A2 /* Assets.xcassets */; };
 		A3A719841E1F6B3100ABE2A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A3A719821E1F6B3100ABE2A2 /* LaunchScreen.storyboard */; };
+		A3A7198F1E1F6DF300ABE2A2 /* XZQRCode.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A7198E1E1F6DF300ABE2A2 /* XZQRCode.swift */; };
+		A3A719911E1F6F2000ABE2A2 /* XZQRCodeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3A719901E1F6F2000ABE2A2 /* XZQRCodeController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		A3A719801E1F6B3100ABE2A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A3A719831E1F6B3100ABE2A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A3A719851E1F6B3100ABE2A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A3A7198E1E1F6DF300ABE2A2 /* XZQRCode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQRCode.swift; sourceTree = "<group>"; };
+		A3A719901E1F6F2000ABE2A2 /* XZQRCodeController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XZQRCodeController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,22 @@
 		A3A719781E1F6B3100ABE2A2 /* XZQRCode_Swift */ = {
 			isa = PBXGroup;
 			children = (
+				A3A7198B1E1F6CD100ABE2A2 /* XZQRCode_Swift */,
 				A3A719791E1F6B3100ABE2A2 /* AppDelegate.swift */,
 				A3A7197B1E1F6B3100ABE2A2 /* ViewController.swift */,
 				A3A7197D1E1F6B3100ABE2A2 /* Main.storyboard */,
 				A3A719801E1F6B3100ABE2A2 /* Assets.xcassets */,
 				A3A719821E1F6B3100ABE2A2 /* LaunchScreen.storyboard */,
 				A3A719851E1F6B3100ABE2A2 /* Info.plist */,
+			);
+			path = XZQRCode_Swift;
+			sourceTree = "<group>";
+		};
+		A3A7198B1E1F6CD100ABE2A2 /* XZQRCode_Swift */ = {
+			isa = PBXGroup;
+			children = (
+				A3A7198E1E1F6DF300ABE2A2 /* XZQRCode.swift */,
+				A3A719901E1F6F2000ABE2A2 /* XZQRCodeController.swift */,
 			);
 			path = XZQRCode_Swift;
 			sourceTree = "<group>";
@@ -96,6 +110,7 @@
 				TargetAttributes = {
 					A3A719751E1F6B3100ABE2A2 = {
 						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = A54ZG5654W;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,7 +152,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				A3A7197C1E1F6B3100ABE2A2 /* ViewController.swift in Sources */,
+				A3A7198F1E1F6DF300ABE2A2 /* XZQRCode.swift in Sources */,
 				A3A7197A1E1F6B3100ABE2A2 /* AppDelegate.swift in Sources */,
+				A3A719911E1F6F2000ABE2A2 /* XZQRCodeController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +277,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A54ZG5654W;
 				INFOPLIST_FILE = XZQRCode_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zyj.XZQRCode-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -272,7 +291,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = A54ZG5654W;
 				INFOPLIST_FILE = XZQRCode_Swift/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.zyj.XZQRCode-Swift";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -299,6 +320,7 @@
 				A3A7198A1E1F6B3100ABE2A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
